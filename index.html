@@ -1,11 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Manaus Apps</title>
+  <meta charset="UTF-8">
+  <title>AppManaus</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      background: linear-gradient(to bottom right, #33ccff, #ff99cc);
+      overflow: hidden;
+      font-family: "Google Sans Text","Google Sans",Roboto,Arial,sans-serif;
+    }
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 0.7em;
+}
+
+#footer a {
+  color: #3A3251;
+  text-decoration: none;
+}
+
+#footer a:focus i {
+  color: #007FFF; /* Altera a cor para laranja quando o link é clicado */
+}
+
+#footer i {
+  font-size: 20px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+  </style>
 </head>
 <body>
-Teste
+
+  <!-- Conteúdo da página vai aqui -->
+
+  <div id="footer">
+    <a href="#"><i class="fas fa-bars"></i> Menu</a>
+    <a href="#"><i class="fas fa-film"></i> Filmes</a>
+    <a href="#"><i class="fas fa-play"></i> Player</a>
+    <a href="#"><i class="fas fa-cogs"></i> Outros</a>
+    <a href="#"><i class="fas fa-blog"></i> Blog</a>
+  </div>
+
 </body>
 </html>
